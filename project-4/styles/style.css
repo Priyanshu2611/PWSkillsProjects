@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    padding-left: 50px;
+    flex-grow: 1;
+}
+.list ul{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+.list ul li{
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+}
+.list ul li a{
+    text-decoration: none;
+    color: black;
+}
+.list ul li a:hover{
+    text-decoration: underline;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.button-main{
+    margin-left: auto;
+    margin-right: 25px;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 14px 20px;
+    color: #fff;
+    background-color: #5955b3;
+    border: none;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.button-main:hover{
+    text-decoration: underline;
+}
+.main{
+    display: flex;
+    align-items: center;
+}
+.main-left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 55px;
+}
+.main-left h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 74px;
+    color: #3c2f60;
+    margin-left: 25px;
+}
+.main-left h1 span{
+    color: #5955b3;
+}
+.main-left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.01em;
+    color: #828282;
+    margin-top: 28px;
+    margin-left: 25px;
+}
+.main-left .button-sec{
+    margin-top: 50px;
+    margin-left: 25px;
+    padding: 14px 20px;
+    color: #fff;
+    background-color: #5955b3;
+    border: none;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.button-sec:hover{
+    text-decoration: underline;
+}
+.main-right-img{
+    margin-right: 25px;
+    width: 50%;
+    object-fit: cover;
+    height: 500px;
+    width: 700px;
+    margin-top: 55px;
+}
